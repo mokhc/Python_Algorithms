@@ -84,7 +84,7 @@ s1 = Tra()
 print(s1.post_tra1(t1))
 print("----- 2 -----")
 s2 = Tra()
-print(s2.post_tra2(t1))  # 4 5 2 6 3 1
+print(s2.post_tra2(t1))  # [4, 5, 2, 6, 3, 1]
 
 
 # reference:
