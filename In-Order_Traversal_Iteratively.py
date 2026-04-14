@@ -66,8 +66,14 @@ t1.right = BNode(3)
 t1.left.left = BNode(4)
 t1.left.right = BNode(5)
 t1.right.left = BNode(6)
-t1.right.right = BNode(7)
 print_btree(t1)
+"""
+ ___1___
+ |     |
+_2_   _3
+| |   |
+4 5   6
+"""
 
 print("----- 1 -----")  # [4, 2, 5, 1, 6, 3]
 s1 = Tra()
