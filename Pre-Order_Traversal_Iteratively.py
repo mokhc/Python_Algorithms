@@ -74,7 +74,6 @@ t1.right = BNode(3)
 t1.left.left = BNode(4)
 t1.left.right = BNode(5)
 t1.right.left = BNode(6)
-t1.right.right = BNode(7)
 print_btree(t1)
 """
  ___1___
@@ -89,7 +88,7 @@ s1 = Tra()
 print(s1.pre_tra1(t1))
 print("----- 2 -----")
 s2 = Tra()
-print(s2.pre_tra2(t1))  # [1, 2, 4, 5, 3, 6, 7]
+print(s2.pre_tra2(t1))  # [1, 2, 4, 5, 3, 6]
 
 # reference:
 # # https://github.com/liyin2015/python-coding-interview/blob/master/Colab_Codes/chapter_tree_data_structure_and_traversal.ipynb
